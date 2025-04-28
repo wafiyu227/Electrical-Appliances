@@ -14,3 +14,5 @@ document.getElementById('services').addEventListener('click', () => {
 document.getElementById('contact').addEventListener('click', () => {
     window.location.href = 'contact.html'; // Redirect to Contact page
 });
+
+AOS.init();
